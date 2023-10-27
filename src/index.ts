@@ -10,7 +10,10 @@ let level;
 level =1;
 level = 'a';
 
-function render(document) {
+function render(document: number) {
   console.log(document)
 
 }
+
+let numbers: number[] = [1, 2, 3];
+let user: [number, string] = [1, 'aa'];
